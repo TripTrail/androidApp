@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TripTrek</string>
+
+    <!-- SignIn Page -->
+    <string name="signin_backgroung_image_desc">SignIn Background Image</string>
+    <string name="slogan">Start Weaving Memories</string>
+    <string name="label_signUp_text">Don\'t have an account?</string>
+    <string name="label_signUp_link">Register Here</string>
+
+    <string name="help_text_email">Enter Your Email Id</string>
+    <string name="help_text_password">Enter Your Password</string>
+    <string name="button_label_signin">Sign In</string>
+
+    <string name="button_label_fb_signin">SignIn with Facebook</string>
+    <string name="button_label_google_signin">SignIn with Google</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- SignIn Page End -->
+
+    <string name="button_label_signup">Sign Up</string>
+</resources>
