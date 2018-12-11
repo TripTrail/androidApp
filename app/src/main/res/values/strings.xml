@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TripTrek</string>
+    <string name="app_name">TripTrail</string>
 
     <!-- SignIn Page -->
     <string name="signin_backgroung_image_desc">SignIn Background Image</string>
@@ -7,6 +7,7 @@
     <string name="label_signUp_text">Don\'t have an account?</string>
     <string name="label_signUp_link">Register Here</string>
 
+    <string name="label_signIn">Sign In To Access Your Account</string>
     <string name="help_text_email">Enter Your Email Id</string>
     <string name="help_text_password">Enter Your Password</string>
     <string name="button_label_signin">Sign In</string>

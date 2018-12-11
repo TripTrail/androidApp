@@ -11,8 +11,8 @@
         android:id="@+id/loginBG"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:alpha="0.35"
         android:contentDescription="@string/signin_backgroung_image_desc"
@@ -37,12 +37,12 @@
                 android:id="@+id/company"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/carter_one"
+                android:fontFamily="@font/viga"
                 android:gravity="center"
                 android:shadowColor="@color/colorShadow"
                 android:shadowDx="0"
                 android:shadowDy="0"
-                android:shadowRadius="40"
+                android:shadowRadius="10"
                 android:text="@string/app_name"
                 android:textColor="@color/colorPrimary"
                 android:textSize="60sp"
@@ -52,16 +52,16 @@
                 android:id="@+id/slogan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-10dp"
                 android:gravity="center"
                 android:paddingBottom="10dp"
                 android:shadowColor="@color/colorShadow"
                 android:shadowDx="0"
                 android:shadowDy="0"
-                android:shadowRadius="40"
+                android:shadowRadius="10"
                 android:text="@string/slogan"
                 android:textColor="#FFFFFF"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -71,6 +71,21 @@
             android:layout_marginBottom="10dp"
             android:layout_marginTop="30dp"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/signInLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:shadowColor="@color/colorShadowLight"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="@string/label_signIn"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <android.support.v7.widget.AppCompatEditText
                 android:id="@+id/email_field"
@@ -82,6 +97,7 @@
                 android:ems="10"
                 android:hint="@string/help_text_email"
                 android:inputType="textEmailAddress"
+                android:textColor="@color/colorPrimary"
                 app:backgroundTint="@color/colorPrimary" />
 
             <android.support.v7.widget.AppCompatEditText
@@ -94,20 +110,22 @@
                 android:ems="10"
                 android:hint="@string/help_text_password"
                 android:inputType="textPassword"
+                android:textColor="@color/colorPrimary"
                 app:backgroundTint="@color/colorPrimary" />
 
             <Button
                 android:id="@+id/email_signin_button"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:background="@color/colorPrimary"
                 android:onClick="signIn"
+                android:padding="15dp"
                 android:text="@string/button_label_signin"
                 android:textAllCaps="false"
                 android:textColor="@color/colorButtonLabel"
                 android:textSize="18sp" />
-
         </LinearLayout>
 
         <LinearLayout
@@ -166,12 +184,12 @@
                     android:layout_weight="1"
                     android:onClick="showSignUpActivity"
                     android:padding="2dp"
-                    android:shadowColor="@color/colorButtonLabel"
+                    android:shadowColor="#999999"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="40"
+                    android:shadowRadius="30"
                     android:text="@string/label_signUp_link"
-                    android:textColor="@android:color/holo_red_light"
+                    android:textColor="@color/colorPrimary"
                     android:textStyle="bold|italic" />
             </LinearLayout>
 
